@@ -23,15 +23,26 @@
   },
   "homepage": "https://github.com/justinram11/serverless-aws-batch#readme",
   "dependencies": {
+    "@aws-sdk/client-batch": "^3.554.0",
+    "aws-sdk": "^2.1599.0",
     "bluebird": "^3.7.2",
     "cross-spawn": "^7.0.3",
     "fs-extra": "^10.0.0",
     "jszip": "^3.7.1",
     "lodash": "^4.17.21",
     "process": "^0.11.10",
-    "serverless": "^2.66.1"
+    "serverless": "^3.8.1"
   },
   "devDependencies": {
-    "aws-sdk": "^2.1028.0"
+    "serverless-aws-batch": "^1.0.7",
+    "serverless-iam-roles-per-function": "^3.2.0",
+    "serverless-localstack": "^1.2.0",
+    "serverless-plugin-common-excludes": "^4.0.0",
+    "serverless-plugin-git-variables": "^5.2.0",
+    "serverless-prune-plugin": "^2.0.2",
+    "serverless-python-requirements": "^6.1.0",
+    "serverless-s3-local": "^0.8.4",
+    "serverless-stage-manager": "^1.0.5",
+    "serverless-step-functions": "^3.21.0"
   }
 }
