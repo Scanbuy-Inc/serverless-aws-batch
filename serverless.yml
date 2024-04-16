@@ -81,13 +81,13 @@ provider:
   tags: ${self:custom.standardTags}
   stackTags: ${self:custom.standardTags}
 
-  vpc:
-    securityGroupIds:
-      - "sg-00dc46bc1876d0fe9"
-    subnetIds:
-      - "subnet-05ae6600909c50e66"
-      - "subnet-03e3c69c9df8e8633"
-      - "subnet-03c6599332b94c8d9" #(scanbuydata-prod-data-private-us-east-1b)
+  # vpc:
+  #   securityGroupIds:
+  #     - "sg-00dc46bc1876d0fe9"
+  #   subnetIds:
+  #     - "subnet-05ae6600909c50e66"
+  #     - "subnet-03e3c69c9df8e8633"
+  #     - "subnet-03c6599332b94c8d9" #(scanbuydata-prod-data-private-us-east-1b)
  
   iamRoleStatements:
     - Effect: Allow
