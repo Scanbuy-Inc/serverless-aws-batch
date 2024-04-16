@@ -360,3 +360,6 @@ module.exports.hello = (event, context, callback) => {
 * [gcaliene](https://github.com/gcaliene)
 * [MEGApixel23](https://github.com/MEGApixel23)
 * [claydanford](https://github.com/claydanford)
+
+
+  An error occurred: JobDefinitionInmarketUpload - An error occurred (ClientException) when calling the RegisterJobDefinition operation: Error executing request, Exception : Cannot use both ECS containerProperties vcpus and resourceRequirement VCPU., RequestId: a6734cc9-8c74-4aa4-8c28-c2bb1f697395.
